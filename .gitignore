@@ -1,3 +1,11 @@
 
 *.xml
 *.xml
+_windows/laf.xml
+code.style.schemes.xml
+codestyles/Default.xml
+colors.scheme.xml
+debugger.xml
+editor.xml
+filetypes.xml
+inspection/Default.xml
