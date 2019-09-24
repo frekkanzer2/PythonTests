@@ -1,0 +1,6 @@
+myFile = open("testFile.txt", "w")
+myFile.write(input("Write here what you want: "))
+myFile.close()
+myFile = open("testFile.txt", "r")
+print("File text:", myFile.read())
+myFile.close()
