@@ -1,0 +1,22 @@
+*FactorialExercise*
+Re-define the factorial function
+
+*FactorialForComprehension*
+Calculate the factorial of some numbers in a list and send in output factorials%3==0
+
+*MultDivWithDoubleStar*
+Create a script that executes division or multiplication and that it explain the operation
+Parameters for div/mult and explain-output are passed as keyword
+
+*PassingFunctionAsArgument*
+Create a script that pass a function as argument in another function
+
+*RecursiveAppend*
+Create a function that recursively appends objects to an array
+
+*SumWithStar*
+Create a function that sum a list of integer parameters using the star
+
+*WritingReadingFileTest*
+Create a script that allows the user to write on a file
+The output will be displayed after the input
