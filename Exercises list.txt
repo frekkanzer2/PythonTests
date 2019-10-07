@@ -26,3 +26,6 @@ Add in a stack 5 numbers. It will calculate all factorials and it will filter al
 
 *InstancesCounter.py*
 Create a script that counts the instances of a class
+
+*CounterWithDecorator.py*
+Create a decorator that counts all instances of a class
