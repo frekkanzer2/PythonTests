@@ -29,3 +29,6 @@ Create a script that counts the instances of a class
 
 *CounterWithDecorator.py*
 Create a decorator that counts all instances of a class
+
+*SingletonTest.py*
+Create a single administrator that can ban/unban users
