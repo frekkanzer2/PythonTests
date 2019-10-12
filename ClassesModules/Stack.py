@@ -21,7 +21,8 @@ class Stack:
         self.pvt_lastNode = None
         self.pvt_length = 0
 
-    def addNode(self, element):
+    # Add an element into the stack
+    def addElement(self, element):
         if self.pvt_length == 0:
             self.pvt_lastNode = self.Node(element, None)
             self.pvt_length = 1
@@ -30,23 +31,29 @@ class Stack:
             self.pvt_lastNode = self.Node(element, tempNode)
             self.pvt_length += 1
 
-    def getNode(self):
+    # Get the last element of the stack
+    def getElement(self):
         if self.pvt_length == 0:
             return None
         else:
-            return self.pvt_lastNode
+            return self.pvt_lastNode.getElement()
 
-    def removeNode(self):
+    # Remove the last element of the stack
+    def removeElement(self):
         if self.pvt_length > 0:
             tempPointer = self.pvt_lastNode.getSubNode()
             pointerToRemove = self.pvt_lastNode
             self.pvt_lastNode = tempPointer
             del pointerToRemove
 
-    def getRemoveNode(self):
-        nodeToReturn = self.getNode()
-        self.removeNode()
-        return nodeToReturn
+    # Get the last element of the stack and remove it
+    def getRemoveElement(self):
+        if self.pvt_length > 0:
+            nodeToReturn = self.getElement()
+            self.removeElement()
+            return nodeToReturn
+        return None
 
+    # Get the size of the stack
     def getDimension(self):
         return self.pvt_length
