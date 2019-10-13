@@ -32,3 +32,6 @@ Create a decorator that counts all instances of a class
 
 *SingletonTest.py*
 Create a single administrator that can ban/unban users
+
+*BiblioExercise.py*
+Create a single library that contains multiple books. All params should be privates and should be setted with ensures
