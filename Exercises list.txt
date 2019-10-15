@@ -35,3 +35,9 @@ Create a single administrator that can ban/unban users
 
 *BiblioExercise.py*
 Create a single library that contains multiple books. All params should be privates and should be setted with ensures
+
+*AddMethodToClass.py*
+Create a static method that if it can't find a method, it will invoke AnotherClass.f method
+
+*DecoratorFFunct.py*
+Create a decorator that if it can't find the f function on a class, it will set a new function to the f attribute 
