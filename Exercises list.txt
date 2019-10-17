@@ -41,3 +41,6 @@ Create a static method that if it can't find a method, it will invoke AnotherCla
 
 *DecoratorFFunct.py*
 Create a decorator that if it can't find the f function on a class, it will set a new function to the f attribute 
+
+*MethodRedefinition.py*
+Write a class with a __new__ method that associates an inner class function to the primary class
