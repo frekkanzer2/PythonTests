@@ -44,3 +44,6 @@ Create a decorator that if it can't find the f function on a class, it will set 
 
 *MethodRedefinition.py*
 Write a class with a __new__ method that associates an inner class function to the primary class
+
+*ListAdaptQueue.py*
+Create an adapter that adapts a queue to a list and a stack
