@@ -47,3 +47,24 @@ Write a class with a __new__ method that associates an inner class function to t
 
 *ListAdaptQueue.py*
 Create an adapter that adapts a queue to a list and a stack
+
+*recursiveDeepCopy.py*
+Implement a recursive deep copy
+
+*sumDecorator.py*
+Write a function that sums all elements passed by argument. Write a decorator that allows the function to accept a list of elements where elements != int and it can convert it to int; then, do the sum
+
+*functionsCounter.py*
+Write a decorator that counts all method invocations of a class
+
+*IntegerGenerator.py*
+Write a function that accept an integer as argument and it can create a list with 0 to n-1 numbers. Create multiple lists in a list
+
+*AdapterWorks.py*
+Write some different classes that has a common function: use an adapter to use that function in a list of objects
+
+*ListPermutation.py*
+Create a list that contains all permutations of an another list. All elements must be integers
+
+*IntegerSumGenerator.py*
+Create a function that returns a list of n elements that increases like [0, 1, 3, 6, 10, ...] where the last element is equals to 0+1+3+6+10+...+(n-1)
