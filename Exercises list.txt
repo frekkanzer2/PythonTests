@@ -71,3 +71,9 @@ Create a function that returns a list of n elements that increases like [0, 1, 3
 
 *AddAttributeToClass.py*
 Create a function that creates an attribute for the class. If the class already has that attribute, the function returns false
+
+*InvocationFactory.py*
+Create a decorator factory that creates a class decorator that counts the invocations of a method, passed as argument in the decorator factory
+
+*DictImplementation.py*
+Implement a custom dictionary re-creating all operators as functions. Save the couples key-value in a custom class
