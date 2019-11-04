@@ -77,3 +77,6 @@ Create a decorator factory that creates a class decorator that counts the invoca
 
 *DictImplementation.py*
 Implement a custom dictionary re-creating all operators as functions. Save the couples key-value in a custom class
+
+*restRoutine.py*
+Use the coroutine decorator to create a coroutine that prints OK if the number taken with the send method is divisible by an argument number
