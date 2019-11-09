@@ -4,3 +4,9 @@ def coroutine(decoratedFunction):
         next(generator)
         return generator
     return wrapper
+
+
+def abstractMethod(function):
+    def wrapper(*args, **kwargs):
+        raise NotImplementedError
+    return wrapper
