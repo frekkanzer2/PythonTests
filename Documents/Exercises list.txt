@@ -80,3 +80,6 @@ Implement a custom dictionary re-creating all operators as functions. Save the c
 
 *restRoutine.py*
 Use the coroutine decorator to create a coroutine that prints OK if the number taken with the send method is divisible by an argument number
+
+*ObsTest.py*
+Implement an Observer and a Listener/View with a test system
