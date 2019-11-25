@@ -83,3 +83,6 @@ Use the coroutine decorator to create a coroutine that prints OK if the number t
 
 *ObsTest.py*
 Implement an Observer and a Listener/View with a test system
+
+*ChildrenState.py*
+A pattern state exercise: it does operations based on the status of the student
