@@ -86,3 +86,6 @@ Implement an Observer and a Listener/View with a test system
 
 *ChildrenState.py*
 A pattern state exercise: it does operations based on the status of the student
+
+*testMultiplexer.py*
+A tester of the new decorator Multiplexer
