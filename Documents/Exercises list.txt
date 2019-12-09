@@ -89,3 +89,9 @@ A pattern state exercise: it does operations based on the status of the student
 
 *testMultiplexer.py*
 A tester of the new decorator Multiplexer
+
+*packDelivery.py*
+Exercise on the State Pattern with packs and deliveries
+
+*rangeOfResponsability.py*
+Exercise on the Chain of Responsability Pattern with ranges
