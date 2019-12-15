@@ -63,7 +63,7 @@ class automobile:
 
 
 def add_car(factory: FWFactory, targa: str, proprietario: str, marca: str, modello: str, colore: str):
-    print("\n\nClient: Aggiungo un automobile.")
+    print("\n\nClient: Aggiungo un'automobile.")
     fw = factory.get_FW([marca, modello, colore])
 
     fw.op([targa, proprietario], automobile, "automobili.txt")
